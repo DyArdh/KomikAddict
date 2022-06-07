@@ -19,7 +19,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(65, 62, 62);">
     <div class="container">
-      <a class="navbar-brand" href="#" style="font-weight: bold;font-size: 30px;color: #C4A484; font-family: BebasNeue;">Cinemas</a>
+      <a class="navbar-brand" href="#" style="font-weight: bold;font-size: 30px;color: #C4A484; font-family: BebasNeue;">NoName</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
