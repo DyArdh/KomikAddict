@@ -12,25 +12,26 @@
     <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="<?= base_url; ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url; ?>/assets/css/main-style.css">
 </head>
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(65, 62, 62);">
-    <div class="container">
-      <a class="navbar-brand" href="#" style="font-weight: bold;font-size: 30px;color: #C4A484; font-family: BebasNeue;">NoName</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" style = "color: white" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style = "color: white" href="#">List</a>
-          </li>
-        </ul>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #191c25;">
+  <div class="container">
+    <a class="navbar-brand" href="#" style="font-weight: bold;font-size: 30px;color: #fff;">NoName</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="color: #fff;"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav fw-bold me-auto mb-3 mb-lg-0 ms-md-5">
+        <li class="nav-item me-3">
+          <a class="nav-link active" style = "color: white" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style = "color: white" href="#">List</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
