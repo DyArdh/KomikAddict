@@ -23,6 +23,6 @@ body {
   box-shadow: none;
 }
 
-.btn.btn-primary.filter-show {
-  height: 50px;
+.text-left {
+  text-align: left !important;
 }
