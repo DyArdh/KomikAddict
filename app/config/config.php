@@ -1,6 +1,6 @@
 <?php
 
-define('base_url', 'http://localhost:8080/projectPweb/public');
+define('base_url', 'http://localhost:8080/KomikAddict/public');
 
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
