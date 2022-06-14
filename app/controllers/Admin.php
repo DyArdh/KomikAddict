@@ -1,6 +1,16 @@
 <?php 
 
 class Admin extends Controller {
+
+    // public function __construct()
+    // {
+    //     if($_SESSION['session_login'] != 'already_login') {
+    //         Flasher::setNotification('Login', 'Tidak Ditemukan!', 'danger');
+    //         header('location: '. base_url . '/login');
+	// 		exit;
+    //     }
+    // }
+    
     public function index()
     {
         $data['title'] = 'Admin Page';

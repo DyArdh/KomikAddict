@@ -9,7 +9,11 @@
                     <div class="sb-sidenav-menu-heading">Core</div>
                     <a class="nav-link <?= $data['title'] == "Admin Page" ? "active" : "" ?>" href="<?= base_url; ?>/admin">
                         <div class="sb-nav-link-icon"><i class="fas fa-house"></i></div>
-                        Dashboard
+                        Daftar Komik
+                    </a>
+                    <a class="nav-link mt-2 <?= $data['title'] == "Media Sosial" ? "active" : "" ?>" href="<?= base_url; ?>/admin">
+                        <div class="sb-nav-link-icon"><i class="fas fa-house"></i></div>
+                        Media Sosial
                     </a>
                 </div>
             </div>

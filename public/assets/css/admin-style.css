@@ -272,11 +272,17 @@ body {
 .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
   color: var(--text-color-grey);
 }
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon:hover {
+  color: var(--text-color-light);
+}
+
 .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
   color: var(--text-color-grey);
 }
 .sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
   background-color: #0f1015;
+  color: var(--text-color-light);
   width: 95%;
   border-left: 4px solid var(--hover-color);
   border-top-right-radius: 10px;
