@@ -13,11 +13,12 @@ class Admin extends Controller {
     
     public function index()
     {
-        $data['title'] = 'Admin Page';
+        $data['title'] = 'Daftar Komik';
 
         $this->view('templates/header-admin', $data);
         $this->view('templates/sidebar-admin', $data);
         $this->view('admin-dashboard/index', $data);
+        $this->view('admin-dashboard/modal', $data);
         $this->view('templates/footer-admin');
     }
 }

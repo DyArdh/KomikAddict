@@ -7,12 +7,12 @@
                         <a href="<?= base_url; ?>" class="btn btn-primary">Go to web</a>
                     </div>
                     <div class="sb-sidenav-menu-heading">Core</div>
-                    <a class="nav-link <?= $data['title'] == "Admin Page" ? "active" : "" ?>" href="<?= base_url; ?>/admin">
-                        <div class="sb-nav-link-icon"><i class="fas fa-house"></i></div>
+                    <a class="nav-link <?= $data['title'] == "Daftar Komik" ? "active" : "" ?>" href="<?= base_url; ?>/admin">
+                        <div class="sb-nav-link-icon"><i class="fa-solid fa-book fa-lg"></i></div>
                         Daftar Komik
                     </a>
-                    <a class="nav-link mt-2 <?= $data['title'] == "Media Sosial" ? "active" : "" ?>" href="<?= base_url; ?>/admin">
-                        <div class="sb-nav-link-icon"><i class="fas fa-house"></i></div>
+                    <a class="nav-link mt-2 <?= $data['title'] == "Media Sosial" ? "active" : "" ?>" href="<?= base_url; ?>/medsos">
+                        <div class="sb-nav-link-icon"><i class="fa-brands fa-facebook-square fa-lg"></i></div>
                         Media Sosial
                     </a>
                 </div>
