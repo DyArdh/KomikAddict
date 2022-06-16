@@ -71,7 +71,7 @@
                     <th>
                       <div class="action-btn d-flex">
                         <span class="badge rounded-pill bg-success py-2 px-3 me-2">Detail</span>
-                        <span class="badge rounded-pill bg-primary py-2 px-3 me-2">Edit</span>
+                        <a href="#edit-content" data-bs-toggle="modal" data-bs-target="#edit-content"><span class="badge rounded-pill bg-primary py-2 px-3 me-2">Edit</span></a>
                         <span class="badge rounded-pill bg-danger py-2 px-3">Hapus</span>
                       </div>
                     </th>
