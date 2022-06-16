@@ -482,4 +482,8 @@ body {
   background-color: var(--navbar-color);
 }
 
+#edit-content .modal-dialog .modal-content {
+  background-color: var(--navbar-color);
+}
+
 /* End Content CSS */
