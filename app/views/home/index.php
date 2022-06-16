@@ -16,19 +16,52 @@
             </div>
             <div class="row mt-3">
                 <div class="col-12">
-                    <div class="card px-4 py-4">
+                    <div class="card px-4 py-4 lessblack">
                         <div class="header-content d-flex justify-item-center">
-                            <h6 class="fw-bold">Daftar Komik</h6>
-                        </div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cumque nemo modi voluptatibus maxime, officiis incidunt neque id tenetur accusantium, enim laborum eveniet nulla minima quod labore sapiente asperiores aliquam!
-                    Libero ipsum nulla non veniam eos alias at laborum, consectetur exercitationem officia neque a laudantium distinctio quidem id quod, cumque pariatur ratione voluptate ad, nesciunt illum odio in architecto. Illo!
-                    Doloremque enim ad nihil rem rerum quos harum blanditiis culpa corrupti veniam voluptatum iure debitis ullam quae explicabo reprehenderit possimus voluptas doloribus maxime repellendus, eius dolor deleniti. Qui, iusto eveniet.
-                    Animi adipisci molestias accusantium eveniet hic qui molestiae consectetur facere odio maxime! Placeat, reprehenderit. Accusantium quisquam aperiam voluptas, deserunt sapiente commodi ex harum facilis. Fugiat reprehenderit adipisci amet quod quae!
-                    Incidunt rerum porro pariatur veritatis facere. Sapiente expedita dolorum totam eaque numquam provident, voluptatum hic velit. Quas assumenda obcaecati voluptate, ad iusto impedit asperiores culpa. Vel voluptatibus delectus at aperiam?
+                            <h4 class="fw-bold" style="color: white;">Daftar Komik</h4>
+                        </div> 
+                        <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
+                            <div class="col">
+                                <div class="card box">
+                                <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">desc.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card box">
+                                <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">desc.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card box">
+                                <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">desc.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card box">
+                                <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">desc.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>            
+                    </div>
                     </div>
                 </div>
             </div>
-        </div>
         <div class="col-md-3 sidebar text-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. ur dolorum, dolore fugit deserunt soluta culpa porro facere architecto sequi voluptatem ipsa eum laboriosam delectus nesciunt cupiditate. Velit ratione laborum officiis alias iusto!
         </div>

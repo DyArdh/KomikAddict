@@ -26,3 +26,12 @@ body {
 .text-left {
   text-align: left !important;
 }
+
+
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.lessblack{
+  background-color: #191c25;
+}
