@@ -19,6 +19,7 @@ class Admin extends Controller {
         $this->view('templates/sidebar-admin', $data);
         $this->view('admin-dashboard/index', $data);
         $this->view('admin-dashboard/modal', $data);
+        $this->view('admin-dashboard/editform', $data);
         $this->view('templates/footer-admin');
     }
 }
