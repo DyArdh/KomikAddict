@@ -11,10 +11,10 @@
 
     <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="<?= base_url; ?>/assets/css/main-style.css">
-</head>
-<body>
+
+  </head>
+  <body>
 
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #191c25;">
