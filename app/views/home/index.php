@@ -18,42 +18,42 @@
                 <div class="col-12">
                     <div class="card px-4 py-4 lessblack">
                         <div class="header-content d-flex justify-item-center">
-                            <h4 class="fw-bold" style="color: white;">Daftar Komik</h4>
+                            <h4 class="fw-bold" style="color: var(--text-color-light);">Daftar Komik</h4>
                         </div> 
                         <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
                             <div class="col">
                                 <div class="card box">
+                                <a class="stretched-link" href="index.php"></a>
                                 <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">desc.</p>
                                 </div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card box">
+                                <a class="stretched-link" href="index.php"></a>
                                 <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">desc.</p>
                                 </div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card box">
+                                <a class="stretched-link" href="index.php"></a>
                                 <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">desc.</p>
                                 </div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card box">
+                                <a class="stretched-link" href="index.php"></a>
                                 <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">desc.</p>
                                 </div>
                                 </div>
                             </div>

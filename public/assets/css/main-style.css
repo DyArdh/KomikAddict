@@ -1,6 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 
 html,
+
+:root {
+  --body-color: #000000;
+  --navbar-color: #191c25;
+  --text-color-light: #fff;
+  --text-color-dark: #000000;
+  --text-color-grey: #67738f;
+  --primary-color: #2d31fa;
+  --second-color: #051367;
+  --main-color: #343957;
+  --second-color: #6b51df;
+  --text-color-dark: #434a6a;
+  --text-color-light: #f8f9fa;
+  --hover-color: #7a63dd;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +25,7 @@ body {
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #000;
+  background-color: var(--body-color);
 }
 .jumbo {
   padding-top: 100px;
@@ -29,9 +45,25 @@ body {
 
 
 .box:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  box-shadow: 0 0 11px var(--hover-color); 
 }
 
 .lessblack{
-  background-color: #191c25;
+  background-color: var(--navbar-color);
 }
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.card-title{
+  font-family: fantasy;
+}
+
+
+footer{
+  background-color: var(--text-color-light);
+}
+
