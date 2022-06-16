@@ -8,6 +8,10 @@
       <div class="modal-body">
         <form action="" method="POST">
           <div class="mb-3">
+            <label for="judul" class="fw-bold">Thumbnail :</label>
+            <input type="file" class="form-control mt-2" name="thumbnail" id="thumbnail" required>
+          </div>
+          <div class="mb-3">
             <label for="judul" class="fw-bold">Judul :</label>
             <input type="text" class="form-control mt-2" name="judul" id="judul" required>
           </div>
