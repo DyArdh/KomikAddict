@@ -55,6 +55,7 @@
                   <tr>
                     <th style="width: 5%;">#</th>
                     <th>Judul</th>
+                    <th style="width: 20%;">Penulis</th>
                     <th style="width: 20%;">Tanggal Dibuat</th>
                     <th style="width: 15%;">Status</th>
                     <th style="width: 20%;">Action</th>
@@ -64,6 +65,7 @@
                   <tr class="align-middle">
                     <th>1</th>
                     <th>Test 1 2 3 4 5 6</th>
+                    <th>Oda Sensei</th>
                     <th>12 Desember 2022</th>
                     <th><div class="badge badge-outline-success py-1 px-3 me-2">Posted</div></th>
                     <th>
