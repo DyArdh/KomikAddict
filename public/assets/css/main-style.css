@@ -45,7 +45,10 @@ body {
 
 
 .box:hover {
-  box-shadow: 0 0 11px var(--hover-color); 
+  box-shadow: 0 0 5px var(--hover-color);
+  background-color: var(--hover-color);
+  color: var(--text-color-light);
+  border-color: var(--hover-color);; 
 }
 
 .lessblack{
@@ -64,6 +67,9 @@ body {
 
 
 footer{
-  background-color: var(--text-color-light);
+  background-color: var(--navbar-color);
 }
+
+
+
 

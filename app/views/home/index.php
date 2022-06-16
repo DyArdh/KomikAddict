@@ -1,18 +1,28 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-12 col-md-9">
-            <div class="row">
-                <div class="col-12 d-grid">
-                <a class="btn btn-primary text-left px-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Filter
-                </a>
-                <div class="collapse" id="collapseExample">
-                    <div class="card card-body">
-                        <label for="search" class="pb-2">Search :</label>
-                        <input type="text" class="form-control" id="search" name="search">
+            <div class="container">
+                <div class="col">
+                    <form>
+                        <input type="text" placeholder="find comic">
+                    </form>
+                </div>
+                <div class="col">
+                    <h1>tes filter</h1>
+                </div>
+
+
+                <!-- <div class="col-12 d-grid">
+                    <a class="btn btn-primary text-left px-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Filter
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            <label for="search" class="pb-2">Search :</label>
+                            <input type="text" class="form-control" id="search" name="search">
+                        </div>
                     </div>
-                </div>
-                </div>
+                </div> -->
             </div>
             <div class="row mt-3">
                 <div class="col-12">
