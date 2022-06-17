@@ -2,7 +2,7 @@
   <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content px-5">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Add New Comic</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Edit Comic</h5>
         <button type="button" id="close-btn" data-bs-dismiss="modal" aria-label="Close" style="background-color: transparent; border: none; color: #fff;">
           <i class="fa-solid fa-xmark fa-xl"></i>
         </button>
@@ -53,7 +53,7 @@
             <trix-editor input="sinopsis"></trix-editor>
           </div>
           <div class="mb-3">
-            <label for="kondisi" class="fw-bold mb-2">Bahasa :</label>
+            <label for="kondisi" class="fw-bold mb-2">Status :</label>
             <select class="form-select" name="kondisi" id="kondisi">
               <option value="Posted">Posted</option>
               <option value="Pending">Pending</option>

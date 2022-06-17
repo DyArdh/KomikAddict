@@ -56,7 +56,6 @@ class KomikModel {
 
         $query = "INSERT INTO komik (id, judul, penulis_id, tahun, genre, bahasa_id, sinopsis, kondisi) VALUES(NULL,:judul, :penulis_id, :tahun, :genre, :bahasa_id, :sinopsis, :kondisi)";
         $this->db->query($query);
-        // $this->db->bind('thumbnail', $data['thumbnail']);
         $this->db->bind('judul', $data['judul']);
         $this->db->bind('penulis_id', $data['penulis_id'], PDO::PARAM_INT);
         $this->db->bind('tahun', $data['tahun']);

@@ -62,10 +62,13 @@
                 method: 'post',
                 dataType: 'json',
                 success: function(data) {
-                    console.log(data)
-                    // $('#judul').val(data.judul);
-                    // $('#nama').val(data.nama);
-                    // $('#nama').val(data.nama);
+                    $('#judul').val(data.judul);
+                    $('#penulis_id').val(data.penulis_id);
+                    $('#tahun').val(data.tahun);
+                    $('#genre').val(data.genre);
+                    $('#bahasa_id').val(data.bahasa_id);
+                    $('#sinopsis').val(data.sinopsis);
+                    $('#kondisi').val(data.kondisi);
                 }
             });
         });

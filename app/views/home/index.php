@@ -76,45 +76,10 @@
                                 <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                               </form>                      
                         </div> 
-                        <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
-                            <div class="col">
-                                <div class="card box">
-                                <a class="stretched-link" href="index.php"></a>
-                                <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card box">
-                                <a class="stretched-link" href="index.php"></a>
-                                <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card box">
-                                <a class="stretched-link" href="index.php"></a>
-                                <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card box">
-                                <a class="stretched-link" href="index.php"></a>
-                                <img src="<?= base_url; ?>/assets/img/tesgambar.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                </div>
-                                </div>
-                            </div>
+                        <div class="row row-cols-1 row-cols-md-3 g-4 pt-4" id="daftarKomik">
+                            
                         </div>            
-                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -138,3 +103,19 @@
         </div>
     </div>
 </div>
+
+
+<script>
+  $(document).ready(function () {
+  loadDaftarKomik();
+  function loadDaftarKomik() {
+    $.ajax({
+      url: "http://localhost:8080/KomikAddict/public/home/getDaftarKomik",
+      method: "POST",
+      success: function (data) {
+        $("#daftarKomik").html(data);
+      },
+    });
+  }
+});
+</script>
