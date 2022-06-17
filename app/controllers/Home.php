@@ -17,4 +17,12 @@ class Home extends Controller {
         $data['komik'] = $this->model('KomikModel')->getAllKomik();
         $this->view('home/cardContent', $data);
     }
+
+    public function detailPage()
+    {
+        $data['title'] = 'Detail Page';
+        $data['detail'] = $this->model('KomikModel')->getKomikbyId();
+
+        $this->view('detailpage/index', $data);
+    }
 }
