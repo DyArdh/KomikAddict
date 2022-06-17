@@ -49,8 +49,8 @@
                     </div>
                     <div class="col-md-8">
                         <h5 class="card-title text-light" style="text-align: left;">Welcome to KomikAddict</h5>
-                        <p class="card-text" style="text-align: justify;"><b>KomikAddict </b> adalah sebuah Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et risus gravida, facilisis purus vitae, sollicitudin eros. Curabitur id dolor pellentesque, efficitur nisl non, tempor felis. Vivamus at fringilla sapien.Suspendisse et risus gravida, facilisis purus vitae, sollicitudin eros..</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text" style="text-align: justify;"><b>KomikAddict </b> adalah sebuah situs review buku komik dari seluruh dunia. Kami menilai dan menuliskan review singkat komik tersebut berdasarkan data yang sebenarnya atau tidak dibuat-buat hanya untuk keuntungan kelompok tertentu. Ini adalah review kami yang paling baru. Selamat mencari komik kesayangan anda di sini dan tunggu review kami berikutnya! </p>
+                        <a href="#" class="btn btn-primary d-md-block ">Random Comic Button</a>
                     </div>
                     </div>
                 </div>
@@ -61,8 +61,20 @@
             <div class="row mt-2">
                 <div class="col-xs-12">
                     <div class="card px-4 py-4 lessblack">
-                        <div class="header-content d-flex justify-item-center">
-                            <h4 class="fw-bold" style="color: var(--text-color-light);">Daftar Komik</h4>
+                        <h4 class="fw-bold" style="color: var(--text-color-light);">Daftar Komik</h4>
+                        <div class="header-content d-flex align-self-end">
+                            <div class="dropdown mx-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Sort by
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li><a class="dropdown-item" href="#">A-Z</a></li>
+                                  <li><a class="dropdown-item" href="#">Z-A</a></li>
+                                </ul>
+                            </div>
+                            <form role="search">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                              </form>                      
                         </div> 
                         <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
                             <div class="col">
