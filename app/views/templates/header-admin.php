@@ -23,6 +23,12 @@
     <!-- Datatables CSS -->
     <link rel="stylesheet" href="<?= base_url; ?>/assets/css/datatables.css">
 
+    <!-- Trix Editor CSS -->
+    <link rel="stylesheet" href="<?= base_url; ?>/assets/css/trix.css">
+
+    <!-- Trix Editor JS -->
+    <script type="text/javascript" src="<?= base_url; ?>/assets/js/trix.js"></script>
+
   </head>
   <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark fixed-top">

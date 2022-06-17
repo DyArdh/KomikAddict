@@ -11,5 +11,8 @@
 
     <!-- JS Custom -->
     <script src="<?= base_url; ?>/assets/js/admin-main.js"></script>
+
+    <!-- AJAX -->
+    <script src="<?= base_url; ?>/assets/js/ajax-admin.js"></script>
   </body>
 </html>

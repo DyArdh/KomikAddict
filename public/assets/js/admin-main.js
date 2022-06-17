@@ -23,12 +23,3 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 // End Javascript Dashboard
-
-// Datatables JS
-$(document).ready(function () {
-  $("#content-table").DataTable({
-    lengthChange: false,
-    info: false,
-    pageLength: 20,
-  });
-});
