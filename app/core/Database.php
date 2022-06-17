@@ -4,14 +4,14 @@ class Database{
 	private $host = DB_HOST;
 	private $user = DB_USER;
 	private $pass = DB_PASS;
-	private $dbnm = DB_NAME;
+	private $db_name = DB_NAME;
 
 	private $dbh;
 	private $stmt;
 
 	public function __construct()
 	{
-		$dsn = 'mysql:host='. $this->host .';dbname='. $this->dbnm;
+		$dsn = 'mysql:host='. $this->host .';dbname='. $this->db_name;
 
 		$option = [
 			PDO::ATTR_PERSISTENT => true,
